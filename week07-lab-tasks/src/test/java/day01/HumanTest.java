@@ -9,5 +9,5 @@ public class HumanTest {
     void createHumanWithWrongYear(){
         assertThrows(IllegalArgumentException.class, ()-> new Human("john Doe",1900));
     }
-    
+
 }
